@@ -1,13 +1,19 @@
-# Install Directions
-# All Platforms
+# Interview Instructions
+We will be building a simple UI that will make use of the API provided in this github repo, Please have your interview computer setup to run this API, and have your environment ready to create a new UI using the react-js framework.
+
+# Suggested React Setup
+https://create-react-app.dev/
+
+# API Install Directions
+## All Platforms
 * Install nodejs (validated on node v22)
 
-# Commands to install packages and start the server in debug-mode (more logs)
+## Commands to install packages and start the server in debug-mode (more logs)
 ```
 npm install && DEBUG=grocery-api:* npm start
 ```
 
-# Curls to work with API
+## Curls to work with API
 ```
 curl http://localhost:3001/stores/1
 {"storeId":1,"name":"Albertsons","City":"Dallas","state":"TX"}%
