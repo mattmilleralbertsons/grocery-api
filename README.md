@@ -7,7 +7,7 @@
 npm install && DEBUG=grocery-api:* npm start
 ```
 
-# Curl to create a new person
+# Curls to work with API
 ```
 curl http://localhost:3001/stores/1
 {"storeId":1,"name":"Albertsons","City":"Dallas","state":"TX"}%
